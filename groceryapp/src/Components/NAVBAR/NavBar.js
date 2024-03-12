@@ -42,7 +42,7 @@ const NavBar = () =>{
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                         <Dropdown.Item>Grocery Stores</Dropdown.Item>
-                        <Dropdown.Item>Home Cooks</Dropdown.Item>
+                        <Dropdown.Item>Home Chefs</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <a>About Us</a>

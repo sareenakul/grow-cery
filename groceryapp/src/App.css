@@ -1,0 +1,12 @@
+:root{
+    --col1: #d67b2a;
+    --col2: #858383;
+    --col2: #fefdfd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
