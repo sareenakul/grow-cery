@@ -2,6 +2,7 @@ import navbar from "../NAVBAR/navbar.css";
 import growceryLogo from "../../Assets/growceryLogo.png";
 import React from "react";
 import { useState } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const NavBar = () =>{
     const[quantity, setQuantity] = useState(0);
@@ -34,7 +35,20 @@ const NavBar = () =>{
                     </div>
                 </div>
             </div>
-            <div className="section2"></div>
+            <div className="section2">
+                <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown-basic">
+                        Categories
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                        <Dropdown.Item>Grocery Stores</Dropdown.Item>
+                        <Dropdown.Item>Home Cooks</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+                <a>About Us</a>
+                <a>Contact Us</a>
+                <a>FAQs</a>
+            </div>
 
         </nav>
     )
