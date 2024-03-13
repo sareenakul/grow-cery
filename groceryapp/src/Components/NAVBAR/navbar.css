@@ -12,5 +12,37 @@ nav svg{
 }
 
 nav svg:hover{
-  
+  color: var(--col1);
+}
+
+nav img{
+  width: 10%;
+}
+
+nav .section1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .group{
+  width: 50%;
+  display: flex;
+  padding: 5px;
+  border: none;
+  filter: drop-shadow(7px 3px 3px gray);
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+nav .group input{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+nav .group svg{
+  color: var(--col1);
 }
