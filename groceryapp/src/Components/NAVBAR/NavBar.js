@@ -18,7 +18,7 @@ const NavBar = () =>{
                             ></path>
                         </g>
                     </svg>
-                    <input className="input" type="search" placeholder="Search" />
+                    <input className="input" type="search" placeholder="Search for products and categories" />
                 </div>
                 <div className="right">
                     <div className="cart">
