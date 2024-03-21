@@ -1,3 +1,4 @@
+
 nav{
   display: flex;
   flex-direction: column;
@@ -20,21 +21,21 @@ nav img{
 }
 
 nav .section1{
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 nav .right {
-  width: 30%; /* Adjust the width as needed */
+  width: 15%; /* Adjust the width as needed */
   display: flex;
   gap: 10px;
   justify-content: space-around;
   align-items: center;
 }
 
-nav .section1 .group {
+nav .group {
   width: 50%; /* Adjust the width as needed */
   display: flex;
   padding: 5px;
@@ -44,12 +45,13 @@ nav .section1 .group {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  margin-right: -50px;
 }
 
 nav .group input{
   border: none;
   outline: none;
-  width: 100%;
+  width: calc(100% - 10px);
   padding: 10px; /* Adjust the padding as needed */
   border-radius: 5px; /* Match the border-radius of the .group */
   font-size: 16px; /* Adjust the font size as needed */
@@ -59,7 +61,7 @@ nav .group input{
 
 nav .cart{
   position: relative;
-  margin: 0px 20px;
+  /* margin: 0px 20px; */
 }
 
 nav .cart .qty{
@@ -91,4 +93,5 @@ nav .section2 a{
   color: black;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
 }
