@@ -30,3 +30,51 @@
 
 
 }
+
+.background-colors{
+    width: 100vh;
+    height: 100vh * 3;
+    background: rgb(255, 252, 0);
+    background: linear-gradient(
+        0deg,
+        rgba(255, 252, 0, 1) 0%,
+        rgba(255, 252, 0, 1) 25%,
+        rgba(34, 149, 18, 1) 50%,
+        rgba(255, 0, 0, 1) 100%
+    );
+}
+
+.parallax-child-container{
+    position: absolute;
+    width: 100vh;
+    height: 100vw;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+
+    @for $i from 0 to 3{
+        &:nth-of-type(#{$i + 1}){
+            top: $i * $width;
+        }
+    }
+}
+
+.parallax-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    padding: 0(100vw * 0.3);
+    transform-origin: 50% 50% 0;
+    transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(1.666) rotate(90deg);
+}
+
+.parallax-background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw * 3;
+    height: 100vh;
+    transform: translateX(-50%) translateY(180%) translateZ(-8px) scale(2.5) rotate(90deg);
+    z-index: 0;
+}

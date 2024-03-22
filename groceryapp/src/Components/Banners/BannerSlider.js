@@ -7,20 +7,20 @@ const BannerSlider = () =>{
             <div className="parallax-parent">
                 <div className="background-colors"></div>
 
-                <section className="paralax-child-container paralax-child-container__one">
-                    <div className="paralax-child">
+                <section className="parallax-child-container parallax-child-container__one">
+                    <div className="parallax-child">
                         <h1>Groceries</h1>
                     </div>
                 </section>
 
-                <section className="paralax-child-container paralax-child-container__two">
-                    <div className="paralax-child">
+                <section className="parallax-child-container parallax-child-container__two">
+                    <div className="parallax-child">
                         <h1>Restraunts</h1>
                     </div>
                 </section>
 
-                <section className="paralax-child-container paralax-child-container__three">
-                    <div className="paralax-child">
+                <section className="parallax-child-container parallax-child-container__three">
+                    <div className="parallax-child">
                         <h1>Home Cooked Meals</h1>
                     </div>
                 </section>
